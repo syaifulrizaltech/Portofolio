@@ -55,6 +55,18 @@ section::before{
 .about::before{
     content: 'About';
 }
+.about-exp::before{
+    content: 'Pendidikan';
+    font-size: 32px;
+    padding-left: 16px;
+    color: #adb5bd;
+}
+.about-exp-1::before{
+    content: 'Pengalaman';
+    font-size: 32px;
+    padding-left: 16px;
+    color: #adb5bd;
+}
 .about-exp-item {
     margin-top: 32px;
 }
@@ -71,7 +83,7 @@ section::before{
 /* ============ */
 /* === WORK === */
 .work::before{
-    content: 'Work';
+    content: 'Project';
 }
 .work-img{
     display: grid;
