@@ -56,13 +56,13 @@ section::before{
     content: 'About';
 }
 .about-exp::before{
-    content: 'Pendidikan';
+    content: 'Education ';
     font-size: 32px;
     padding-left: 16px;
     color: #adb5bd;
 }
 .about-exp-1::before{
-    content: 'Pengalaman';
+    content: 'Experience';
     font-size: 32px;
     padding-left: 16px;
     color: #adb5bd;
@@ -122,19 +122,19 @@ section::before{
     grid-area: work-1;
 }
 #work-1:hover::after{
-    content: 'Web Project';
+    content: 'Toko Online';
 }
 #work-2 {
     grid-area: work-2;
 }
 #work-2:hover::after{
-    content: 'Sofware Project';
+    content: 'TooTravel';
 }
 #work-3 {
     grid-area: work-3;
 }
 #work-3:hover::after{
-    content: 'Web Project';
+    content: 'Mentoring';
 }
 
 /* ==== */
